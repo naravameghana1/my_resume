@@ -1,0 +1,163 @@
+\documentclass[10pt]{article}
+
+\usepackage{tabularx}
+\renewcommand{\arraystretch}{1.5}
+
+% Packages
+\usepackage[a4paper,margin=0.4in]{geometry}
+\usepackage{multicol}
+\usepackage{hyphenat}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Settings
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{0.3in}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\hypersetup{colorlinks=true,urlcolor=darkblue}
+
+% Document
+\begin{document}
+
+% Header
+\begin{multicols}{2}
+{\LARGE \textbf{Meghana Narava\\\\}}
+I am a passionate VLSI enthusiast seeking a challenging
+and dynamic career as an VLSI engineer, where I can gain
+knowledge and develop my skills.
+
+\columnbreak
+\begin{flushright}
+\textbf{Phone:} 9703576741\\
+\textbf{Email:} naravameghana1@gmail.com \\
+ \textbf{Website: }\href{https://github.com/naravameghana1}{github.com/naravameghana1}
+ \href{https://www.linkedin.com/in/narava-meghana-571877227/}{www.linkedin.com/in/narava-meghana-571877227/}\\
+ \textbf{Address 1: }G.Sigadam,Srikakulam ,Andhra Pradesh,India\\
+\textbf{Address 2: }Nuzvid–Andhra Pradesh–India
+\end{flushright}
+\end{multicols}
+
+% Education
+\section*{Education}
+\hrule
+\begin{table}[h]
+  \setlength{\tabcolsep}{5pt} % Adjust padding between columns
+  \renewcommand{\arraystretch}{1.5} % Adjust padding between rows
+  \begin{tabularx}{\textwidth}{|c|X|c|c|}
+    \hline
+    \textbf{Degree} &\centering\textbf{ Institution}&\textbf{Grade/CGPA}&\textbf{Time Period}\\
+    \hline
+    B.Tech. (ECE) & Rajiv Gandhi University of Knowledge \centering Technologies, Srikakulam & 9.17 & 2020--Present \\
+    \hline
+    PUC & Rajiv Gandhi University of Knowledge \centering Technologies, Srikakulam & 9.67 & 2018--2020 \\
+    \hline
+    Class X &\centering A.P.Model School-G.Sigadam & 10.00 & 2018 \\
+    \hline
+  \end{tabularx}
+\end{table}
+
+% Skills
+\section*{Skills}
+\hrule
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Micro Controllers:}  Arduino UNO (ATMEGA328).
+\item \textbf{Programming languages:} C, C++, Python, Verilog HDL, Matlab
+\end{itemize}
+\columnbreak
+\begin{itemize}[leftmargin=*]
+\item \textbf{Tools and technologies:}  Arduino IDE, LaTeX, Proteus, NI Multisim,  Xilinx ISE, GitHub.
+\item \textbf{Communication:} Written and verbal communication, public speaking, team collaboration
+\end{itemize}
+\end{multicols}
+
+% Projects
+\section*{Projects}
+\hrule
+\begin{multicols}{3}
+\textbf{Projects with Arduino UNO}
+\hypersetup{
+    linkcolor=black,
+    urlcolor=black
+}
+\begin{itemize}[leftmargin=*]
+\item{Line Follower Robot}
+\item{Smart Irrigation using Moisture Sensor}
+\item Self Controlled bot using Ultra Sonic sensor
+\item{Smart Dustbin}
+\end{itemize}
+\columnbreak
+\textbf{Projects with Xilinx Vivado}
+\begin{itemize}[leftmargin=*]
+\item\href{https://github.com/naravameghana1/GCD}{GCD-Machine using Datapath and Controlpath} 
+\item\href{https://github.com/naravameghana1/Traffic-controller}{Four road Traffic controller}
+\item\href{https://github.com/naravameghana1/I2C_Protocol}{I2C Protocol Using Verilog}
+\item\href{https://github.com/naravameghana1/SPI_Protocol}{SPI Protocol Using Verilog}
+
+\end{itemize}
+\end{multicols}
+\textbf{Note: }Review my project firmwares, source codes and simulations on my Github repository, which showcases my experience and abilities in embedded systems development.\\\\
+\textbf{GitHub profile: }\href{https://github.com/naravameghana1}{https://github.com/naravameghana1}
+
+% Experience
+\section*{Experience}
+\hrule
+\begin{multicols}{2}
+\textbf{Chegg Q\&A Expert} \\
+Chegg India \\
+Jan 2023 – Present\\
+\columnbreak
+\begin{itemize}[leftmargin=*]
+\item Developed and maintained firmware applications using C,
+Arduino IDE and Xilinx ISE.
+\end{itemize}
+\end{multicols}
+
+% Awards and Achievements
+%\section*{Awards and Achievements}
+%\hrule
+%\vspace{0.5cm}
+%\begin{itemize}[leftmargin=*]
+
+%\item Awarded \textbf{$2^{nd}$ Position} in the \textbf{Arduino Workshop} Competition among \textbf{300} competitors
+%\hspace{4cm}
+%\textbf{2022}
+
+%\item Honoured with the \textbf{Prathiba Award} from the \textbf{Education Minister of Andhra Pradesh} for achieving\hspace{1.8cm}\textbf{2018}\\ the \textbf{highest CGPA} of 10/10 in \textbf{Matriculation} among \textbf{57,127 students} in Andhra Pradesh
+
+%\item Bagged \textbf{$1^{st}$ Prize} in \textbf{District Level Science Fair Competition} for best \textbf{Innovative and Useful}\hspace{2.2cm}\textbf{2017}\\ project for Farmers in \textbf{Prediction of Pests} in the Farm
+%\end{itemize}
+
+% Courses and Certifications
+\section*{Courses and Certifications}
+\hrule
+\vspace{0.5em}
+\begin{itemize}[leftmargin=*]
+\item "\textbf{VLSI Designing-(Front end}" from SURE Trust
+\item "\textbf{ VLSI System On Chip Design}" from MAVEN SILICON.
+\item "\textbf{Learning Verilog for FPGA development}" By Eduardo Corpeno From Linkdin .
+\item "\textbf{Crash Course On Python}" From Coursera.
+\end{itemize}
+
+
+
+% Co-Circular and Extra Circular Activities
+\section*{Co-Circular and Extra-Circular Activities}
+\hrule
+\vspace{0.5cm}
+\begin{itemize}[leftmargin=*]
+
+\item \textbf{ Placement And Training Member)}\hspace{7.2cm}\textbf{2022 - Present}\\
+-Responsible to contact Company HR’s\\
+-Conducting practice tests for the students in department level to prepare them for placements
+
+
+\item Participated in \textbf{3} days of \textbf{Arduino Workshop} conducted by Department of ECE\hspace{5.6cm}\textbf{2022}
+
+\item \textbf{Hobbies:} Traveling, Playing Chess, Cooking, Listening to Music, Star Gazing 
+
+
+\end{itemize}
+\end{document}
